@@ -1,0 +1,21 @@
+# Bytecode / cache
+__pycache__/
+*.pyc
+
+# Salidas generadas por el propio programa (no deben versionarse)
+informe_combustibles*.xlsx
+errores.md
+log_trazabilidad.txt
+
+# Facturas y plantillas reales del usuario (datos privados/PII)
+*.pdf
+*.PDF
+tablas*informe*.xlsx
+facturas/
+RESULTADOS/
+
+# Entornos y editores
+.venv/
+venv/
+.vscode/
+.idea/
